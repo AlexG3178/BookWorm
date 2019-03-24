@@ -11,6 +11,8 @@
 		9BA5D1282247CDE900E14C63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5D1272247CDE900E14C63 /* ViewController.swift */; };
 		9BA5D12A2247CDEB00E14C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA5D1292247CDEB00E14C63 /* Assets.xcassets */; };
 		9BA5D12D2247CDEB00E14C63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA5D12B2247CDEB00E14C63 /* Main.storyboard */; };
+		9BA5D1362247CEC100E14C63 /* StarFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5D1352247CEC100E14C63 /* StarFormatter.swift */; };
+		9BA5D1382247CEE900E14C63 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA5D1372247CEE900E14C63 /* Review.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9BA5D12C2247CDEB00E14C63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BA5D12E2247CDEB00E14C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA5D12F2247CDEB00E14C63 /* BookWorm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BookWorm.entitlements; sourceTree = "<group>"; };
+		9BA5D1352247CEC100E14C63 /* StarFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarFormatter.swift; sourceTree = "<group>"; };
+		9BA5D1372247CEE900E14C63 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9BA5D12B2247CDEB00E14C63 /* Main.storyboard */,
 				9BA5D12E2247CDEB00E14C63 /* Info.plist */,
 				9BA5D12F2247CDEB00E14C63 /* BookWorm.entitlements */,
+				9BA5D1352247CEC100E14C63 /* StarFormatter.swift */,
+				9BA5D1372247CEE900E14C63 /* Review.swift */,
 			);
 			path = BookWorm;
 			sourceTree = "<group>";
@@ -134,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BA5D1282247CDE900E14C63 /* ViewController.swift in Sources */,
+				9BA5D1382247CEE900E14C63 /* Review.swift in Sources */,
 				9BA5D1262247CDE900E14C63 /* AppDelegate.swift in Sources */,
+				9BA5D1362247CEC100E14C63 /* StarFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
